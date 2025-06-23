@@ -1,5 +1,4 @@
 import { FastifyInstance } from 'fastify'
-import { z, ZodError } from 'zod/v4'
 
 import { BadRequestError } from './routes/_errors/bad-request-error'
 import { UnauthorizedError } from './routes/_errors/unauthorized-error'
